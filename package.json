@@ -1,0 +1,28 @@
+{
+  "name": "web-math",
+  "version": "1.0.0",
+  "description": "'web in bootstrap'",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "tst"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanda18-12/math-web.git"
+  },
+  "keywords": [
+    "'bootstrap",
+    "web",
+    "math'"
+  ],
+  "author": "David T. Montoya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanda18-12/math-web/issues"
+  },
+  "homepage": "https://github.com/juanda18-12/math-web#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
