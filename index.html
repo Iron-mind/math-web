@@ -1,10 +1,53 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
     <meta charset="utf-8">
-    <title>Hola</title>
+    <title>Matheb</title>
   </head>
   <body>
-    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top" >
+        <!--navbar-brand es para que se vea más estilizado-->
+        <a class="navbar-brand"  href="./index.html">Mates</a><!--uvas es recomendable cambiarlo por un logo--></a>
+        <!--todas estos son atributos importantes para una barra de navegación que colapsa-->
+
+        <!--navbar-togger  es el boton que permite que se expanda y colapse
+        data-toggle y data-target = atributos personalizados -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>                                                             <!--aria-controls="navbarNavDropdown"  PERMITE QUE LOS ITEMS COLAPSEN HACIA ABAJO elementos colapsbles siempre aria controls en bootstrap-->
+          <!--navbar-toggler-icon es es el icono de tres rallitas de la barra -->
+        </button>
+        <!-- esta es en sí los elementos de la barra que colapsan en el botón-->
+        <!--                                   es inportante que id sea navbarSupportedContent
+                                               o sea igual al data target -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+         <ul class="navbar-nav mr-auto"> <!--aquí declaramos que el flujo de los items es automatico-->
+                                    <!--nav-link es un link en la barra de navegación-->
+           <li class="nav-item active"><a class="nav-link" href="./index.html">Inicio</a></li>
+           <li class="nav-item"><a class="nav-link" href="./about.html">Información<span class="oi oi-info ml-2"></span></a></li>
+           <li class="nav-item "><a class="nav-link" href="./contact.html">Contactanos</a></li>
+           <li class="nav-item "><a class="nav-link" href="./prices.html">Precios <span class="badge badge-danger">New </span></a></li>
+
+           <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/channel/UCUJNkwCDH9Cu90W9KJePidQ?sub_confirmation=1">Video</a></li>
+           <li class="nav-item"><a class="nav-link" href="https://escritos-posi.blogspot.com">Documentación</a></li>
+           <!--"nav-item active" es para que destaque más porque es donde está parado el usuario-->
+
+         </ul>
+        </div>
+      </nav>
+
+
+      <script src="node_modules/jquery/dist/jquery.min.js" ></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+
+      <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" ></script>
+
+
   </body>
+  <footer>
+
+  </footer>
 </html>
