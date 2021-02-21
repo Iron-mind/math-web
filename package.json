@@ -4,8 +4,11 @@
   "description": "math ",
   "main": "index.html",
   "scripts": {
+    "start": "concurrently  \"npm run watch:scss\" \"npm run dev\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "lite-server"
+    "dev": "lite-server",
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange 'css/*.scss' -- npm run scss"
   },
   "repository": {
     "type": "git",
@@ -23,6 +26,15 @@
   },
   "homepage": "https://github.com/juanda18-12/math-web#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "node-sass": "^5.0.0",
+    "onchange": "^7.1.0",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta2",
+    "concurrently": "^6.0.0",
+    "open-iconic": "^1.1.1",
+    "popper.js": "^1.16.1"
   }
 }
