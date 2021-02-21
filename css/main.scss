@@ -4,7 +4,6 @@ $purple: #32a852;
   margin-top: top;
   margin-bottom: bottom;
 }
-  .bg-dark
-  {
-    background-color: $purple;
-  }
+$dark:#32a852;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
