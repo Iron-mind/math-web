@@ -1,0 +1,10 @@
+$purple: #32a852;
+@mixin margenes($top, $bottom)
+{
+  margin-top: top;
+  margin-bottom: bottom;
+}
+  .bg-dark
+  {
+    background-color: $purple;
+  }

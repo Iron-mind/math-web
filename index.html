@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Matheb</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
+    <link href="css/main.css" rel="stylesheet" >
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.css">
 
   </head>
   <body>
@@ -26,10 +28,10 @@
 
          <ul class="navbar-nav mr-auto"> <!--aquí declaramos que el flujo de los items es automatico-->
                                     <!--nav-link es un link en la barra de navegación-->
-           <li class="nav-item active"><a class="nav-link" href="./index.html">Inicio</a></li>
+           <li class="nav-item "><a class="nav-link active" href="./index.html">Inicio</a></li>
            <li class="nav-item"><a class="nav-link" href=".mathbasic">Matemáticas Básicas<span class="oi oi-info ml-2"></span></a></li>
            <li class="nav-item "><a class="nav-link" href="./calculo.html">Calculo</a></li>
-           <li class="nav-item "><a class="nav-link" href="./algebra.html">Álgebra<span class="badge badge-danger">New </span></a></li>
+           <li class="nav-item "><a class="nav-link" href="./algebra.html">Álgebra<span class="badge bg-danger">New </span></a></li>
 
            <li class="nav-item"><a class="nav-link" href="./about.html">Sobre El Creador</a></li>
            <!--"nav-item active" es para que destaque más porque es donde está parado el usuario-->
@@ -37,7 +39,6 @@
          </ul>
         </div>
       </nav>
-
 
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
       <script src="js/bootstrap.min.js" ></script>
