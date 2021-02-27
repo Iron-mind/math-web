@@ -4,11 +4,24 @@
   padding-left: 5px;
   padding-right: 5px; }
 
+.links {
+  color: #80bfff; }
+
 a {
+  color: #F5F5F5;
   margin-top: 6px;
   margin-bottom: 6px;
   margin-left: 12px;
   margin-right: 12px; }
+
+h1, .h1 {
+  font-family: 'Noto Sans HK',sans-serif; }
+
+footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 5px;
+  padding-right: 5px; }
 
 /*!
  * Bootstrap v5.0.0-beta2 (https://getbootstrap.com/)

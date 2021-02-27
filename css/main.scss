@@ -14,16 +14,30 @@ $purple: #32a852;
   margin-left: $left;
   margin-right: $right;
 }
-
+$linkcolor:#80bfff;
 $primary:#30415D;
 $secondary:#F5F5F5;
 .head
 {
 @include padin();
 }
+.links
+{
+  color:$linkcolor;
+
+}
 a
 {
+  color: $secondary;
   @include margin(6px,6px,12px,12px);
-}
 
+}
+h1
+{
+  font-family: 'Noto Sans HK',sans-serif;
+}
+footer
+{
+  @include padin(40px,40px);
+}
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
