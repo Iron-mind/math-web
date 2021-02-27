@@ -2,6 +2,8 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- importante para la barra que colapsa -->
     <title>Matheb</title>
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
@@ -10,14 +12,17 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top" >
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top" >
+      <div class="container-fluid">
+
+      </div>
         <!--navbar-brand es para que se vea más estilizado-->
         <a class="navbar-brand"  href="./index.html"> Matheb</a><!--uvas es recomendable cambiarlo por un logo--></a>
         <!--todas estos son atributos importantes para una barra de navegación que colapsa-->
 
         <!--navbar-togger  es el boton que permite que se expanda y colapse
         data-toggle y data-target = atributos personalizados -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>                                                             <!--aria-controls="navbarNavDropdown"  PERMITE QUE LOS ITEMS COLAPSEN HACIA ABAJO elementos colapsbles siempre aria controls en bootstrap-->
           <!--navbar-toggler-icon es es el icono de tres rallitas de la barra -->
         </button>
@@ -26,22 +31,33 @@
                                                o sea igual al data target -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-         <ul class="navbar-nav mr-auto"> <!--aquí declaramos que el flujo de los items es automatico-->
+         <ul class="navbar-nav mr-auto mb-2 mb-md-0"> <!--aquí declaramos que el flujo de los items es automatico-->
                                     <!--nav-link es un link en la barra de navegación-->
-           <li class="nav-item "><a class="nav-link active" href="./index.html">Inicio</a></li>
-           <li class="nav-item"><a class="nav-link" href=".mathbasic">Matemáticas Básicas<span class="oi oi-info ml-2"></span></a></li>
+           <li class="nav-item "><a class="navbar-brand nav-link active" href="./index.html">Inicio</a></li>
+           <li class="nav-item"><a class="nav-link" href=".mathbasic">Matemáticas Básicas</a></li>
            <li class="nav-item "><a class="nav-link" href="./calculo.html">Calculo</a></li>
-           <li class="nav-item "><a class="nav-link" href="./algebra.html">Álgebra<span class="badge bg-danger">New </span></a></li>
+           <li class="nav-item "><a class="nav-link" href="./algebra.html">Álgebra</a></li>
 
            <li class="nav-item"><a class="nav-link" href="./about.html">Sobre El Creador</a></li>
            <!--"nav-item active" es para que destaque más porque es donde está parado el usuario-->
 
          </ul>
+         </div>
         </div>
       </nav>
 
+
+      <div class="head padding-top  bg-primary">
+        <h1 class="container text-secondary">¿Nunca fuiste bueno para las matemáticas?</h1><br>
+        <h4 class="container text-secondary">Vamos a convencerte de lo contrario </h4>
+
+      </div>
+
+
+
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
       <script src="js/bootstrap.min.js" ></script>
+      <!-- <script src="../assets/dist/js/bootstrap.bundle.min.js"></script> -->
 
 
   </body>

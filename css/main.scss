@@ -1,9 +1,29 @@
 $purple: #32a852;
-@mixin margenes($top, $bottom)
+
+@mixin padin($top:70px,$bottom:70px,$left:5px,$right:5px)
 {
-  margin-top: top;
-  margin-bottom: bottom;
+  padding-top: $top;
+  padding-bottom: $bottom;
+  padding-left: $left;
+  padding-right: $right;
 }
-$dark:#32a852;
+@mixin margin($top:20px,$bottom:20px,$left:20px,$right:20px)
+{
+  margin-top: $top;
+  margin-bottom: $bottom;
+  margin-left: $left;
+  margin-right: $right;
+}
+
+$primary:#30415D;
+$secondary:#F5F5F5;
+.head
+{
+@include padin();
+}
+a
+{
+  @include margin(6px,6px,12px,12px);
+}
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
