@@ -1,3 +1,7 @@
+.imgsHeaders {
+  width: 10rem;
+  height: 10rem; }
+
 .head {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -19,6 +23,9 @@ a {
   margin-right: 12px; }
 
 h1, .h1 {
+  font-family: 'Noto Sans HK',sans-serif; }
+
+p {
   font-family: 'Noto Sans HK',sans-serif; }
 
 footer {

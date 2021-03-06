@@ -17,6 +17,12 @@ $purple: #32a852;
 $linkcolor:#80bfff;
 $primary:#30415D;
 $secondary:#F5F5F5;
+.imgsHeaders
+{
+  width: 10rem;
+  height: 10rem;
+
+}
 .head
 {
 @include padin();
@@ -40,8 +46,13 @@ h1
 {
   font-family: 'Noto Sans HK',sans-serif;
 }
+p
+{
+  font-family: 'Noto Sans HK',sans-serif;
+}
 footer
 {
   @include padin(40px,40px);
 }
+
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
