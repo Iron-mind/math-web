@@ -17,6 +17,8 @@ $purple: #32a852;
 $linkcolor:#80bfff;
 $primary:#30415D;
 $secondary:#F5F5F5;
+
+
 .imgsHeaders
 {
   width: 10rem;
@@ -25,7 +27,7 @@ $secondary:#F5F5F5;
 }
 .head
 {
-@include padin();
+@include padin(50px,50px);
 }
 .links
 {
@@ -33,8 +35,21 @@ $secondary:#F5F5F5;
 
 }
 .imgCarousel {
-  width: 40rem;
-  height: 30rem;
+  width: 70%;
+  height: 50%;
+}
+.carousel-item
+{
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+
+.carousel-item img
+{
+  width: 100%;
+  height: 100%;
+
 }
 a
 {
