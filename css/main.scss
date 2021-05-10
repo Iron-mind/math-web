@@ -27,7 +27,7 @@ $secondary:#F5F5F5;
 }
 .head
 {
-@include padin(50px,50px);
+@include padin(50px,50px,0px,0px);
 }
 .links
 {
@@ -50,6 +50,10 @@ $secondary:#F5F5F5;
   width: 80%;
   height: 100%;
 
+}
+.container
+{
+  // @@include margin(0px,20px)
 }
 a
 {
