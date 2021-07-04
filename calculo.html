@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="imgs/pi.png">
+    <!-- imagenes sacadas de freepik.com -->
+    <!-- importante para la barra que colapsa -->
+    <title>Matheb</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
+    <link href="css/main.css" rel="stylesheet" >
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@500&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top" >
+
+
+      </div>
+        <!--navbar-brand es para que se vea más estilizado-->
+        <a class="navbar-brand"  href="./index.html"> Matheb</a><!--uvas es recomendable cambiarlo por un logo--></a>
+        <!--todas estos son atributos importantes para una barra de navegación que colapsa-->
+
+        <!--navbar-togger  es el boton que permite que se expanda y colapse
+        data-toggle y data-target = atributos personalizados -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>                                                             <!--aria-controls="navbarNavDropdown"  PERMITE QUE LOS ITEMS COLAPSEN HACIA ABAJO elementos colapsbles siempre aria controls en bootstrap-->
+          <!--navbar-toggler-icon es es el icono de tres rallitas de la barra -->
+        </button>
+        <!-- esta es en sí los elementos de la barra que colapsan en el botón-->
+        <!--                                   es inportante que id sea navbarSupportedContent
+                                               o sea igual al data target -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+         <ul class="navbar-nav mr-auto mb-2 mb-md-0"> <!--aquí declaramos que el flujo de los items es automatico-->
+                                    <!--nav-link es un link en la barra de navegación-->
+           <li class="nav-item "><a class="navbar-brand nav-link " href="./index.html">Inicio</a></li>
+           <li class="nav-item"><a class="nav-link " href="./basic.html">Matemáticas Básicas</a></li>
+           <li class="nav-item "><a class="nav-link active" href="./calculo.html">Calculo</a></li>
+           <li class="nav-item "><a class="nav-link" href="./algebra.html">Álgebra</a></li>
+
+           <li class="nav-item"><a class="nav-link" href="./about.html">Sobre El Creador</a></li>
+           <!--"nav-item active" es para que destaque más porque es donde está parado el usuario-->
+
+         </ul>
+
+        </div>
+      </nav>
+
+  <div class="row  head padding-top  bg-primary">
+    <div class="inline col-sm">
+    <h1 class="container text-secondary">  ¿Nunca fuiste bueno para las matemáticas?</h1>
+    <h4 class="container text-secondary"><i> Si dijiste sí, debes saber que eso es matemáticamente imposible y en esta página sabras el porqué.</i> </h4>
+  </div  >
+    <div   class="inline col-sm-3 ">
+    <img class="imgsHeaders" src="/imgs/estadisticas.svg">
+    </div>
+  </div>
+
+
+
+
+
+<div class="container">
+
+  <div id="carouselindex" align="center"  class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class=" img-fluid img-thumbnail" src="imgs/mates.jpg" class="d-block w-100" >
+      </div>
+      <div class=" carousel-item">
+        <img class=" img-fluid img-thumbnail" src="imgs/meme.cambio.jpg" class="d-block w-100" >
+      </div>
+      <div class=" carousel-item">
+        <img class=" img-fluid img-thumbnail" src="imgs/mates.jpg" class="d-block w-100" >
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselindex"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" style="background-color:gray;" aria-hidden="true"></span>
+    <span class="sr-only"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselindex"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" style="background-color:gray;" aria-hidden="true"></span>
+    <span class="sr-only"></span>
+  </button>
+  </div>
+  <hr>
+  <div class="parrafo">
+    <p>Para ser exacto, es en la estadistica y en estudios neurológico que se encuentra la demostración de que tu mente es buena para las matemáticas.</p>
+
+  </div>
+  <div class="">
+      <h2>Qué es Matheb</h2>
+      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+  </div>
+  <h2>Contenido que te recomiendo y está relacionado con el tema</h2>
+
+  <div  class="d-flex flex-wrap justify-content-center">
+    <div class=" card  flex-column justify-content-between" style="width: 18rem;">
+    <img src="https://i.ytimg.com/an_webp/3LAsAfjWivw/mqdefault_6s.webp?du=3000&sqp=CISBsIIG&rs=AOn4CLC2InKiz7S_m2wNvRAQgniwFt_HKA" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a target="_blank" href="https://i.ytimg.com/an_webp/fbKkiHynO3k/mqdefault_6s.webp?du=3000&sqp=CLzyr4IG&rs=AOn4CLDqcS4Duzx9Lr7ttkYPbJ9LgTpsow" class="btn btn-">Go somewhere</a>
+    </div>
+    </div>
+
+    <div class=" card  flex-column justify-content-between" style="width: 18rem;">
+    <img src="https://i.ytimg.com/an_webp/3LAsAfjWivw/mqdefault_6s.webp?du=3000&sqp=CISBsIIG&rs=AOn4CLC2InKiz7S_m2wNvRAQgniwFt_HKA" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a target="_blank"  href="https://i.ytimg.com/an_webp/fbKkiHynO3k/mqdefault_6s.webp?du=3000&sqp=CLzyr4IG&rs=AOn4CLDqcS4Duzx9Lr7ttkYPbJ9LgTpsow" class="btn btn-">Go somewhere</a>
+    </div>
+    </div>
+
+    <div class=" card  flex-column justify-content-between" style="width: 18rem;">
+    <img src="https://i.ytimg.com/an_webp/3LAsAfjWivw/mqdefault_6s.webp?du=3000&sqp=CPSBioMG&rs=AOn4CLBL4_qXDYLsgqwCD3DhsIZ9CdTD4g" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a target="_blank" href="https://i.ytimg.com/an_webp/fbKkiHynO3k/mqdefault_6s.webp?du=3000&sqp=CLzyr4IG&rs=AOn4CLDqcS4Duzx9Lr7ttkYPbJ9LgTpsow" class="btn btn-">Go somewhere</a>
+    </div>
+    </div>
+
+    <div class=" card  flex-column justify-content-between" style="width: 18rem;">
+    <img src="https://i.ytimg.com/an_webp/3LAsAfjWivw/mqdefault_6s.webp?du=3000&sqp=CISBsIIG&rs=AOn4CLC2InKiz7S_m2wNvRAQgniwFt_HKA" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a target="_blank" href="https://i.ytimg.com/an_webp/fbKkiHynO3k/mqdefault_6s.webp?du=3000&sqp=CLzyr4IG&rs=AOn4CLDqcS4Duzx9Lr7ttkYPbJ9LgTpsow" class="btn btn-">Go somewhere</a>
+    </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+      <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+      <script src="js/bootstrap.min.js" ></script> -->
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+  <footer class="bg-primary text-secondary">
+  <div class="container d-flex flex-wrap justify-content-between">
+    <div class="col-md">
+       <h5>Siguenos en Redes</h5>
+       <a target="_blank"class="links" href="https://www.youtube.com/channel/UCUJNkwCDH9Cu90W9KJePidQ?sub_confirmation=1">Youtube
+       </a></br>
+       <a target="_blank"class="links"  href="https://twitter.com/TecnicaVirtual"> Twitter
+       </a>
+    </div>
+    <div class="col-md">
+      <address >
+        <h5>Contactanos</h5>
+      <span class="oi oi-phone footer-icons" ></span> Whatsapp: +57 3176731119 </br><span class="oi oi-envelope-open footer-icons"></span> Telegram: @juanda_tv
+
+      </address>
+    </div>
+
+    <div class="col-md  column-flex align-content-end">
+     <h5>Información sobre el creador</h5>
+     <a target="_blank"class="links " href="https://sites.google.com/view/juanda-montoya/p%C3%A1gina-principal"> David T. Montoya
+     </a>
+    </div>
+
+  </div>
+    </footer>
+</html>
