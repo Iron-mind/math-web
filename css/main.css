@@ -39,7 +39,8 @@ h1, .h1 {
   font-family: 'Noto Sans HK',sans-serif; }
 
 p {
-  font-family: 'Noto Sans HK',sans-serif; }
+  font-family: 'Noto Sans HK',sans-serif;
+  text-align: justify; }
 
 footer {
   padding-top: 40px;
